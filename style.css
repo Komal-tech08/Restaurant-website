@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    }
+    #delivery-section,#advantage-section,#search-section,#deal-section,#popular-section{
+        padding-left: 150px;
+        padding-right: 150px;
+        margin-top: 400px;
+        margin-bottom: 400px;
+    }
+    .navigation-class{
+        justify-content: space-around;
+    }
+    #navigation-section{
+        padding: 20px;
+    }
+    .logo{
+        color: #FFB30E;
+        font-family: " Qwigely", cursive;
+        font-weight: 800;
+        font-size: 30px;
+       }
+       .login-button{
+        border: 1px solid #f17228;
+        border-radius: 5px;
+        padding: 7px;
+        background-color: transparent;
+        color: #f17228;
+       }
+    #home-section{
+        background-color: #FDBE35;
+    }
+    #home-section h1{
+        color: white;
+        font-size: 70px;
+        font-family: "Qwigley", cursive;
+        padding: 0;
+        font-weight: 500;
+        margin: 0;
+        
+    }
+    #home-section h5{
+        color: #504f4f;
+        padding: 0;
+        font-size: 15px;
+        font-weight: lighter;
+        margin: 0;
+        
+    }
+    .home-details{
+        display: flex;
+        }
+       .home-main-items{
+            justify-content: space-around;
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .home-items{
+            background-color: white;
+            margin-top: 15px;
+            width: 140%;
+            border-radius: 5px;
+            padding: 30px;
+        }
+        .home-delivery-button{
+            padding: 5px;
+            color: #f17228;
+            border-radius: 5px;
+            font-weight: 900;
+            background-color: rgba(241, 114, 40, 0.1);
+       }
+       .home-pickup-button{
+        margin-top: 22px;
+       }
+       .home-find-button{
+        background-color: #FF7A7A;
+        color: white;
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+       }
+    .home-details p {
+            margin-right: 20px;
+            }
+            .home-items input{
+                background-color: #f5f5f5;
+                border: none;
+                padding: 10px;
+                width: 50%;
+            }
+    .text-orange{
+        color: #f17228;
+    }
+    .vertical-line{
+        border: 1px solid lightgray;
+        height: 60px;
+        margin: 0px 20px 0 30px;
+    }
+    .delivery-item h3{
+          color: #424242;
+          padding: 0;
+          padding-top: 10px;
+          margin: 0;
+    }
+    .delivery-button{
+        padding: 7px;
+        color: #f17228;
+        background-color: rgba(241, 114, 40, 0.2);
+        width: 60%;
+        text-align: center;
+        border-radius: 7px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .delivery-item > div{
+        margin: 10px;
+    }
+    .advantage-item > div{
+      margin: 12px;
+    }
+    #search-section{
+        background-color: rgb(238, 237, 237);
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .search-item h5{
+        text-align: center;
+        font-family: sans-serif;
+        color: #424242;
+    }
+    .search-item > div{
+        margin: 10px;
+    }
+    .deal-items{
+        display: flex;
+        justify-content: space-around;
+    }
+    .deal-items h1{
+        font-size: 40px;
+    }
+    .deal-items h5{
+        color: rgba(97, 97, 97, 0.69);
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    .deal-first-item {
+        width: 30%;
+    }
+    .popular-item > div{
+        margin: 10px;
+    }
+    .order-button{
+        background-color: #f17228;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        width: 100%;
+        padding: 10px;
+    }
+    #delivery-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #advantage-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #search-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #deal-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #popular-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #contact-section{
+        padding-top: 20px;
+        background-color: #090d12;
+        color: white;
+    }
+    .horizontal-line{
+        border-top: 1px solid lightgray;
+        padding: 10px;
+    }
+    .contact-items{
+        display: flex;
+        justify-content: space-around;
+    }
+    .contact-items h5{
+  font-weight: lighter;
+  font-size: 12px;
+    }
+    .contact-sub-items div{
+        margin-right: 30px;
+    }
+    .contact-sub-items{
+        align-items: start;
+    }
+    .contact-input{
+        background-color: #adadad;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .contact-subscribe-button{
+        color: white;
+        background-color: #ffb800;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
